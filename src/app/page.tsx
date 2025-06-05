@@ -312,10 +312,10 @@ export default function Home() {
                 Desenvolvedor Frontend especializado em e-commerce e experiências digitais de alta conversão.
               </p>
               <div className="flex gap-4">
-                <a href="#" className="text-gray-400 hover:text-white transition">
+                <a href="https://www.linkedin.com/in/jonathanduartecosta/" className="text-gray-400 hover:text-white transition">
                   <LinkedInIcon className="h-5 w-5" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white transition">
+                <a href="https://github.com/jonathandcosta" className="text-gray-400 hover:text-white transition">
                   <GitHubIcon className="h-5 w-5" />
                 </a>
               </div>
