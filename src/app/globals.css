@@ -1,0 +1,55 @@
+@import 'tailwindcss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Transições suaves entre seções */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animação personalizada */
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Remove setas padrão do Swiper */
+.swiper-button-next,
+.swiper-button-prev {
+  display: none;
+}
+
+/* Estilo personalizado para as setas */
+.swiper-button-next-custom,
+.swiper-button-prev-custom {
+  position: static !important;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e5e7eb;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.swiper-button-next-custom::after,
+.swiper-button-prev-custom::after {
+  content: none !important;
+}
+
+.swiper-button-next-custom:hover,
+.swiper-button-prev-custom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
