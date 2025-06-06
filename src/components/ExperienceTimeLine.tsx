@@ -9,10 +9,10 @@ export default function ExperienceTimeline() {
       role: "Supervisão e Desenvolvedor Frontend",
       company: "Brazz Brazz Papelaria",
       highlights: [
-        "Liderança da migração para a plataforma Tray, garantindo transição sem impactos nas vendas.",
-        "Gerenciamento de loja virtual com +10.000 produtos, otimizando performance e usabilidade.",
-        "+80% de tráfego orgânico através de estratégias avançadas de SEO e conteúdo.",
-        "Faturamento mensal 2x maior após implementação de melhorias técnicas e de UX."
+        "Migração para plataforma Tray, garantindo eficiência na transição.",
+        "Gerenciamento de loja virtual com +10.000 produtos.",
+        "+80% de tráfego orgânico através de estratégias avançadas de SEO.",
+        "Faturamento mensal 2x maior após implementação de melhorias técnicas."
       ]
     },
     {
