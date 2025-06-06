@@ -13,7 +13,7 @@ export const projects: Project[] = [
     title: 'Ecommerce - BrazzBrazz',
     type: 'profissional',
     description:
-      'Desenvolvi novas páginas para o site, liderei iniciativas para organizar os processos internos do e-commerce, envolvendo cadastro de produtos, logística, atendimento e marketing, integração com ferramentas como Google Analytics, Tag Manager e ERP. Suporte técnico na Vtex, e realizei migração para a plataforma Tray.',
+      'Otimizei páginas do e-commerce, estruturei processos (cadastro, logística, atendimento e marketing) e integrei ferramentas (Google Analytics, Tag Manager, ERP). Atuei no suporte técnico VTEX e liderei migração de plataforma.',
     tags: ['JavaScript', 'VTEX', 'Tray', 'Totvs'],
     image: '/projetos/brazz.jpg',
     githubLink: '#',
@@ -23,7 +23,7 @@ export const projects: Project[] = [
     title: 'Ecommerce - AL',
     type: 'profissional',
     description:
-      'Inicialmente com a plataforma VTEX, realizando manutenção e ajustes em layout, melhorias de performance e integrações com ferramentas de marketing, ERP e análise. Na responsabilidade técnica iniciei a transição para a nova plataforma Tray, participando das negociações com fornecedores, documentação de requisitos, cadastro de produtos, atendimento e logística.',
+      'Atuei na VTEX com manutenção, otimização de layout, performance e integrações (marketing, ERP, analytics). Liderança técnica na migração para Tray: negociação com fornecedores, documentação de requisitos, gestão de produtos, atendimento e logística.',
     tags: ['ReactJs', 'VTEX', 'Tray', 'Totvs'],
     image: '/projetos/atacado.jpg',
     githubLink: '#',
@@ -33,7 +33,7 @@ export const projects: Project[] = [
     title: 'Ecommerce - Eplay',
     type: 'educacional',
     description:
-      'E-play é um e-commerce de jogos de videogame criado com ReactJS. Utilizando Styled Components, Redux para gerenciar o carrinho e APIs, oferece páginas responsivas e interativas, com formulários validados para dados de pagamento e finalização segura das compras.',
+      'E-Play: E-commerce de games desenvolvido em ReactJS com Styled Components. Integra Redux para gerenciamento de carrinho e APIs, oferecendo UI responsiva, formulários de pagamento validados e checkout seguro.',
     tags: ['React', 'TypeScript', 'API', 'Redux'],
     image: '/projetos/eplay.png', // Coloque a imagem em /public/
     githubLink: 'https://github.com/jonathandcosta/react_ecommerce_play',
@@ -43,7 +43,7 @@ export const projects: Project[] = [
     title: 'Social Media - Dogs',
     type: 'educacional',
     description:
-      'Dogs é uma rede social inovadora para amantes de cachorros, desenvolvida com React. O projeto permite gerenciar usuários, publicar fotos e acompanhar interações em cada postagem. Com integração de API, oferece uma experiência dinâmica e responsiva, destacando a qualidade no gerenciamento de dados e na navegação. 🐾',
+      'Dogs: Rede social para apaixonados por pets, construída em React. Oferece cadastro de usuários, postagem de fotos e interações em tempo real via API, com foco em UX e sua interface responsiva e acessível utilizando CSS Modules. 🐾',
     tags: ['React', 'API', 'SVG', 'Eslint', 'Vite'],
     image: '/projetos/dogs.jpg', // Coloque a imagem em /public/
     githubLink: 'https://github.com/jonathandcosta/react_dogs',
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     title: 'Ecommerce - Sports Store',
     type: 'educacional',
     description:
-      'Este projeto é uma vitrine de loja de material esportivo desenvolvida em ReactJS, utilizando TypeScript para garantir a tipagem estática e a robustez do código. A aplicação emprega Redux para uma gestão eficiente dos itens no carrinho de compras, proporcionando uma experiência de usuário otimizada e um fluxo de dados previsível.',
+      'SportStore: Vitrine de e-commerce esportivo em ReactJS + TypeScript, com Redux para gestão de estado do carrinho. Combina tipagem estática para código robusto e UX fluido, garantindo performance e previsibilidade no fluxo de dados.',
     tags: ['React', 'Redux', 'TypeScript'],
     image: '/projetos/sports.jpg',
     githubLink: 'https://github.com/jonathandcosta/react_sports_redux',
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     title: 'Profile - Jonathan Costa',
     type: 'educacional',
     description:
-      'Este projeto, desenvolvido em ReactJS com Styled Components, explora o conceito de personalização através da utilização de props para modificar o tema (cor) da página. O objetivo principal foi criar uma vitrine interativa e visualmente atraente dos meus projetos, demonstrando minha habilidade no consumo da API do github.',
+      'PortfolioHub: Vitrine dinâmica em ReactJS + Styled Components, com temas customizáveis via props. Consome a API do GitHub para exibir projetos de forma interativa, destacando habilidades em frontend e integração de dados.',
     tags: ['React', 'VTEX', 'TypeScript'],
     image: '/projetos/github.jpg', // Coloque a imagem em /public/
     githubLink: 'https://github.com/jonathandcosta/react_github',
@@ -73,7 +73,7 @@ export const projects: Project[] = [
     title: 'E-menu - Delivery',
     type: 'educacional',
     description:
-      'E-menu é um sistema pensado para delivery de hamburguerias, permitindo montar pedidos e enviá-los diretamente via WhatsApp com detalhes e endereço. Desenvolvido em HTML, CSS e JavaScript, possui páginas interativas e um layout responsivo, facilitando a interação do cliente com a loja.',
+      'E-Menu: Plataforma de pedidos para hamburguerias em HTML/CSS/JS. Permite montar combos e enviar pedidos automáticos via WhatsApp (com detalhes + endereço). Interface responsiva e intuitiva, otimizando conversões em delivery.',
     tags: ['HTML', 'Bootstrap', 'CSS', 'JavaScript'],
     image: '/projetos/menu.png',
     githubLink: '#',
@@ -83,7 +83,7 @@ export const projects: Project[] = [
     title: 'Bikcraft - Loja de Bicicletas',
     type: 'educacional',
     description:
-      'Bikcraft é um projeto que simula uma loja online de bicicletas de alto padrão. Desenvolvido com HTML, CSS e JavaScript, o site oferece páginas interativas e um design responsivo, adaptando-se a diferentes dispositivos. O resultado é uma experiência de usuário sofisticada e funcional, ideal para apresentar produtos de alta qualidade.',
+      'Bikcraft: E-commerce premium de bicicletas em HTML/CSS/JS. Design responsivo e interações fluidas, criando uma experiência de usuário sofisticada para produtos de alto padrão. O resultado é uma experiência de usuário sofisticada e funcional.',
     tags: ['JavaScript', 'CSS', 'Flexbox', 'Grid'],
     image: '/projetos/bikcraft.png',
     githubLink: 'https://github.com/jonathandcosta/bikcraft-final',
@@ -93,7 +93,7 @@ export const projects: Project[] = [
     title: 'Infojobs - Busca de Trabalho',
     type: 'educacional',
     description:
-      'Criei esta página de busca de trabalho utilizando ReactJS e Styled Components, com uma abordagem de CSS-in-JS. Essa combinação permitiu um desenvolvimento mais ágil e componentizado, resultando em uma interface moderna e responsiva, otimizada para a experiência do usuário na busca por oportunidades.',
+      'Infojobs: Plataforma de busca de vagas em ReactJS + Styled Components (CSS-in-JS). Arquitetura componentizada para desenvolvimento ágil, entregando UI moderna, responsiva e otimizada para candidatos.',
     tags: ['React', 'Styled Components', 'TypeScript'],
     image: '/projetos/jobs.jpg',
     githubLink: 'https://github.com/jonathandcosta/ReactJS_base_css_in_js',

@@ -9,10 +9,10 @@ export default function ExperienceTimeline() {
       role: "Supervisão e Desenvolvedor Frontend",
       company: "Brazz Brazz Papelaria",
       highlights: [
-        "Migração para plataforma Tray",
-        "Loja ativa com +10.000 produtos",
-        "Aumento de 80% em acessos orgânicos via SEO",
-        "Aumento de 200% no faturamento mensal",
+        "Liderança da migração para a plataforma Tray, garantindo transição sem impactos nas vendas.",
+        "Gerenciamento de loja virtual com +10.000 produtos, otimizando performance e usabilidade.",
+        "+80% de tráfego orgânico através de estratégias avançadas de SEO e conteúdo.",
+        "Faturamento mensal 2x maior após implementação de melhorias técnicas e de UX."
       ]
     },
     {
@@ -20,10 +20,10 @@ export default function ExperienceTimeline() {
       role: "Supervisão e Auxiliar de Desenvolvimento Frontend",
       company: "Atacado do Lojista",
       highlights: [
-        "Migração para plataforma VTEX IO",
-        "Automatização do processos de vendas",
-        "Loja ativa com +30.000 produtos",
-        "Aumento de 30% no faturamento mensal",
+        "Migração bem-sucedida para VTEX IO, elevando a eficiência da plataforma.",
+        "Automação de processos de vendas, reduzindo erros e aumentando produtividade.",
+        "Gestão de catálogo com +30.000 produtos, garantindo organização e desempenho.",
+        "+30% no faturamento após otimizações técnicas e estratégias de conversão.",
       ]
     },
     {
