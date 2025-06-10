@@ -12,7 +12,7 @@ export default function ExperienceTimeline() {
         "Migração para plataforma Tray, garantindo eficiência na transição.",
         "Gerenciamento de loja virtual com +10.000 produtos.",
         "+300% de tráfego orgânico através de estratégias avançadas de SEO.",
-        "Faturamento mensal 30x maior após implementação de melhorias técnicas."
+        "Faturamento mensal 3x maior após implementação de melhorias técnicas."
       ]
     },
     {
