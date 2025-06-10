@@ -5,14 +5,14 @@ import { motion } from 'framer-motion';
 export default function ExperienceTimeline() {
   const experiences = [
     {
-      year: "2024 - Atual",
+      year: "2024 - 2025",
       role: "Supervisão e Desenvolvedor Frontend",
       company: "Brazz Brazz Papelaria",
       highlights: [
         "Migração para plataforma Tray, garantindo eficiência na transição.",
         "Gerenciamento de loja virtual com +10.000 produtos.",
-        "+80% de tráfego orgânico através de estratégias avançadas de SEO.",
-        "Faturamento mensal 2x maior após implementação de melhorias técnicas."
+        "+300% de tráfego orgânico através de estratégias avançadas de SEO.",
+        "Faturamento mensal 30x maior após implementação de melhorias técnicas."
       ]
     },
     {
