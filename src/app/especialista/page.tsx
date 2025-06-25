@@ -104,7 +104,8 @@ export default function SpecialistPage() {
             Vamos conversar sobre como posso ajudar sua empresa a vender mais com tecnologia.
           </p>
           <a
-            href="#contact"
+            href="https://wa.me/558499043539?text=Ol%C3%A1%20Jonathan,%20gostaria%20de%20falar%20sobre%20o%20meu%20projeto."
+            target="_blank"
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition transform hover:scale-105"
           >
             Agendar Chamada
