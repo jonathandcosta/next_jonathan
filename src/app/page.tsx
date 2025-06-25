@@ -131,21 +131,19 @@ export default function Home() {
             >
               <h3 className="text-2xl font-semibold mb-4">Minha Jornada</h3>
               <p className="text-gray-600 mb-6">
-                Ex-profissional de vendas que migrou para a tecnologia, combinando
-                <strong> visão de negócios</strong> com <strong>habilidades técnicas</strong>.
-                Especializado em criar soluções frontend para pequenos e grandes negócios usando a tecnólogia.
+                Ex-profissional de vendas que encontrou na tecnologia como<strong> multiplicar resultados</strong> na venda on-line. Com +5 anos de experiência combino<strong> visão estratégica de negócio </strong>e <strong> habilidades técnicas</strong> para criar e otimizar plataformas de e-commerce, focando sempre na <strong>performance </strong>e na <strong>experiência do cliente</strong>.
                 <Link
                   href="/especialista"
                   className="mt-4 inline-flex items-center gap-1 text-blue-600 hover:underline"
                 >
-                  Conheça minha especialização em e-commerce →
+                  Explore minha expertise em e-commerce →
                 </Link>
               </p>
               <div className="space-y-2">
-                <div className="flex items-center gap-3">
+                {/* <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
                   <span>+5 anos desenvolvendo para negócios</span>
-                </div>
+                </div> */}
                 {/* Adicione mais bullets */}
               </div>
             </motion.div>

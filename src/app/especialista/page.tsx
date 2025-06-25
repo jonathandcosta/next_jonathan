@@ -39,7 +39,7 @@ export default function SpecialistPage() {
             {
               icon: <FiCodesandbox size={32} className="text-blue-600" />,
               title: "Sistemas Desconectados",
-              text: "Integro ERPs (Winthor, Totvs), CRMs (RD Station) e ferramentas de marketing para operações automáticas."
+              text: "Integro ERPs (Winthor, Totvs), CRMs (RD Station), ferramentas de marketing para operações automáticas e processos internos."
             },
             {
               icon: <FiCpu size={32} className="text-blue-600" />,
