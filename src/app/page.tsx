@@ -9,6 +9,7 @@ import ProjectsCarousel from "@/components/ProjectsCarousel";
 import Image from "next/image";
 import ExperienceTimeline from "@/components/ExperienceTimeLine";
 import ContactForm from "@/components/ContactForm";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -35,9 +36,11 @@ export default function Home() {
               sequence={[
                 "Desenvolvedor Frontend",
                 2000,
+                "Focado em React & Next.js",
+                2000,
                 "Especialista em E-commerce",
                 2000,
-                "Focado em React & Next.js",
+                "Arquitetura de Integrações",
                 2000,
               ]}
               wrapper="span"
@@ -131,6 +134,12 @@ export default function Home() {
                 Ex-profissional de vendas que migrou para a tecnologia, combinando
                 <strong> visão de negócios</strong> com <strong>habilidades técnicas</strong>.
                 Especializado em criar soluções frontend para pequenos e grandes negócios usando a tecnólogia.
+                <Link
+                  href="/especialista"
+                  className="mt-4 inline-flex items-center gap-1 text-blue-600 hover:underline"
+                >
+                  Conheça minha especialização em e-commerce →
+                </Link>
               </p>
               <div className="space-y-2">
                 <div className="flex items-center gap-3">
@@ -309,7 +318,14 @@ export default function Home() {
             <div>
               <h3 className="text-white text-lg font-semibold mb-4">Jonathan Costa</h3>
               <p className="mb-4">
-                Desenvolvedor Frontend especializado em e-commerce e experiências digitais de alta conversão.
+                Desenvolvedor Frontend com +5 anos de experiência, ajudo empresas a otimizar suas operações e aumentar suas vendas online.
+                <br />
+                <Link
+                  href="/especialista"
+                  className="mt-4 inline-flex items-center gap-1 text-gray-500 hover:underline"
+                >
+                  Ver cases de sucesso →
+                </Link>
               </p>
               <div className="flex gap-4">
                 <a href="https://www.linkedin.com/in/jonathanduartecosta/" className="text-gray-400 hover:text-white transition">
@@ -329,9 +345,9 @@ export default function Home() {
                 <li><a href="#projects" className="hover:text-white transition">Projetos</a></li>
                 <li><a href="#experience" className="hover:text-white transition">Experiência</a></li>
                 <li><a href="#contact" className="hover:text-white transition">Contato</a></li>
+                <li><Link href="/especialista" className="hover:text-white transition">Especialidade</Link></li>
               </ul>
             </div>
-
             {/* Direitos */}
             <div>
               <h3 className="text-white text-lg font-semibold mb-4">Legal</h3>
