@@ -64,7 +64,7 @@ export default function Home() {
                   Ver Projetos
                 </a>
                 <a
-                  href="/Jonathan Costa - Dev_2025.pdf"
+                  href="/Jonathan Costa-2025.pdf"
                   download
                   className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-blue-600 transition-all"
                 >
@@ -187,7 +187,7 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <a
-              href="/Jonathan Costa - Dev_2025.pdf"
+              href="/Jonathan Costa-2025.pdf"
               download
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition"
             >
