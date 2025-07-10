@@ -1,7 +1,7 @@
 // app/especialista-ecommerce/page.tsx
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { FiCheckCircle, FiBarChart2, FiCodesandbox, FiCpu } from 'react-icons/fi';
+import { FiCheckCircle, FiBarChart2, FiCodesandbox, FiCpu, FiSmartphone, FiActivity, FiHeadphones } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Jonathan Costa | Especialista VTEX & Tray | Integrações de Sistemas',
@@ -48,15 +48,31 @@ export default function SpecialistPage() {
               icon: <FiCpu size={32} className="text-blue-600" />,
               title: "Baixa Performance",
               text: "Implemento SEO técnico, análise de dados e CRO para aumentar tráfego e conversão em +300%."
-            }
+            },
+            {
+              icon: <FiSmartphone size={32} className="text-blue-600" />,
+              title: "UX/UI Mobile Defasada",
+              text: "Otimizo o design e a performance de e-commerces para mobile, garantindo navegação fluida e elevadas taxas de conversão em todos os dispositivos.."
+            },
+            {
+              icon: <FiHeadphones size={32} className="text-blue-600" />,
+              title: "Pós-Venda Ineficiente",
+              text: "Automatizo fluxos de comunicação e suporte pós-compra, escalando a satisfação do cliente através da integração com CRMs e plataformas de atendimento"
+            },
+            {
+              icon: <FiActivity size={32} className="text-blue-600" />,
+              title: "Picos de Venda (Sazonalidades)",
+              text: "Estruturo plataformas e integrações para suportar grandes volumes de tráfego e pedidos, assegurando estabilidade e alta performance em datas sazonais."
+            },
           ].map((item, i) => (
-            <div key={i} className="bg-white p-8 rounded-xl shadow-md border border-gray-200">
+            <div key={i} className="bg-white p-8 rounded-xl shadow-md border border-gray-200 hover:shadow-lg transition-transform transform hover:scale-105 hover:bg-blue-50">
               <div className="mb-4">{item.icon}</div>
               <h3 className="text-xl font-bold mb-3">{item.title}</h3>
               <p className="text-gray-600">{item.text}</p>
             </div>
           ))}
         </div>
+
       </section>
 
       {/* Seção Experiência com Dados */}
@@ -68,7 +84,7 @@ export default function SpecialistPage() {
 
           <div className="max-w-6xl mx-auto">
             <h3 className="text-2xl font-semibold mb-6">Brazz Brazz Papelaria</h3>
-            <ul className="space-y-4">
+            <ul className="space-y-4 p-6 hover:rounded-4xl hover:shadow-md">
               {[
                 "Apresentei o projeto para a equipe, destacando as melhorias e os resultados esperados.",
                 "Utilizei a ferramenta Trello e Notion para gerenciar o projeto, garantindo uma comunicação clara e eficiente com a equipe.",
@@ -89,6 +105,7 @@ export default function SpecialistPage() {
                 "Configurei e otimizei Google Tag Manager, Google Analytics, Google Meu Negócio e Google Shopping, ampliando a visibilidade online da marca.",
                 "Acompanhei campanhas de Google Ads e Meta Ads (Facebook/Instagram), monitorando métricas como ROI, CAC e LTV.",
                 "Inicialização e integração com marketplaces: Mercado Livre, Shopee e Amazon, aumentando a visibilidade e as vendas em 10% no primeiro mês.",
+                "Acompanhamento  de KPis de desempenho, como CAC, LTV e taxa de conversão, utilizando ferramentas como Google Analytics e Power BI.",
                 "Desenvolvimento de dashboards em Power BI para análise de CAC, LTV e taxa de conversão.",
                 "Aumento de 50% na taxa de conversão e redução de 30% no CAC.",
                 "Resultados: Aumento de 300% no tráfego orgânico, 50% na taxa de conversão e redução de 30% no CAC.",
@@ -102,7 +119,7 @@ export default function SpecialistPage() {
             </ul>
 
             <h3 className="text-2xl font-semibold mt-12 mb-6">Atacado do Lojista</h3>
-            <ul className="space-y-4">
+            <ul className="space-y-4 p-6 hover:rounded-4xl hover:shadow-md">
               {[
                 "Liderei a modernização do e-commerce, implementando novas funcionalidades e melhorias no frontend utilizando HTML5, CSS3, JavaScript e frameworks como Bootstrap. ",
                 "Otimizei o tempo de carregamento do site em 40% através de ajustes técnicos",

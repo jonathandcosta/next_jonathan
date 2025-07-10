@@ -21,20 +21,21 @@ export default function ExperienceTimeline() {
       company: "Atacado do Lojista",
       highlights: [
         "Migração bem-sucedida para VTEX IO, elevando a eficiência da plataforma.",
-        "Automação de processos de vendas, reduzindo erros e aumentando produtividade.",
+        "Restruturação dos processos internos, reduzindo erros e aumentando a produtividade.",
         "Gestão de catálogo com +30.000 produtos, garantindo organização e desempenho.",
         "+30% no faturamento após otimizações técnicas e estratégias de conversão.",
       ]
     },
     {
-      year: "2020 - 2022",
+      year: "Desde 2020",
       role: "Desenvolvedor Frontend",
       company: "Freelancer",
       highlights: [
-        "Desenvolvimento de sites e lojas virtuais",
-        "Especialização em React e Next.js",
-        "Criação de soluções personalizadas para clientes",
-        "Aprimoramento de habilidades em SEO e performance web",
+        "Desenvolvimento de Landing Pages, Sites e Lojas Virtuais.",
+        "Especialização em Arquitetura Frontend, com foco em React.js e Next.js.",
+        "Criação e implementação de soluções digitais personalizadas e otimizadas.",
+        "SEO técnico, contribuindo para o aumento de tráfego orgânico.",
+        "Colaboração direta em projetos de e-commerce."
       ]
     },
     // Adicione outras experiências
