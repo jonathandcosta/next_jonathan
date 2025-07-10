@@ -129,9 +129,11 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h3 className="text-2xl font-semibold mb-4">Minha Jornada</h3>
+              <h3 className="text-2xl font-semibold mb-4">O Profissional que você precisa!</h3>
               <p className="text-gray-600 mb-6">
-                Ex-profissional de vendas que encontrou na tecnologia como<strong> multiplicar resultados</strong> na venda on-line. Com +5 anos de experiência combino<strong> visão estratégica de negócio </strong>e <strong> habilidades técnicas</strong> para criar e otimizar plataformas de e-commerce, focando sempre na <strong>performance </strong>e na <strong>experiência do cliente</strong>.
+                {/* Ex-profissional de vendas que encontrou na tecnologia como<strong> multiplicar resultados</strong> na venda on-line. Com +5 anos de experiência combino<strong> visão estratégica de negócio </strong>e <strong> habilidades técnicas</strong> para criar e otimizar plataformas de e-commerce, focando sempre na <strong>performance </strong>e na <strong>experiência do cliente</strong>.
+                <br /> */}
+                Com uma abordagem única que une <strong >expertise técnica em Desenvolvimento Frontend</strong> e uma <strong >visão estratégica aprofundada de e-commerce</strong>, construo e otimizo soluções digitais que funcionam, impactam e <strong >geram resultados exponenciais</strong>. Desde otimizações de performance a integrações complexas, meu objetivo é claro: <strong >levo sua operação online para o próximo nível de lucratividade e eficiência</strong>.
                 <Link
                   href="/especialista"
                   className="mt-4 inline-flex items-center gap-1 text-blue-600 hover:underline"
@@ -152,14 +154,14 @@ export default function Home() {
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
-              className="bg-gray-50 p-8 rounded-xl"
+              className="bg-gray-50 p-4 rounded-xl"
             >
               <h4 className="font-bold mb-4">Principais Habilidades</h4>
               <div className="flex flex-wrap gap-3">
-                {['React', 'Next', 'TypeScript', 'SEO', 'Styled Components', 'Tailwind', 'CSS', 'JavaScript', 'HTML', 'VTEX', 'TRAY'].map((skill) => (
+                {['React', 'NextJs', 'TypeScript', 'Prisma', 'Git', 'Redux', 'SEO', 'CSS', 'Tailwind', 'JavaScript', 'HTML', 'BootStrap', 'VTEX', 'TRAY', 'Figma', 'Trello', 'Notion', 'Kommo', 'RD Station', 'ADS', 'Analytics', 'n8n'].map((skill) => (
                   <span
                     key={skill}
-                    className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm"
+                    className="bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm hover:bg-green-400 hover:text-white"
                   >
                     {skill}
                   </span>
