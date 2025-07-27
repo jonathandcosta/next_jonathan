@@ -113,6 +113,11 @@ export default function Home() {
           </motion.h2>
 
           <ProjectsCarousel projects={projects} />
+          <div>
+            <p className="text-center text-gray-600 mt-6">
+              Confira mais projetos no meu <Link target="_blank" href="https://react-github-pi.vercel.app/" className="text-blue-600 hover:underline">portfólio completo</Link>.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -135,16 +140,16 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h3 className="text-2xl font-semibold mb-4">Seu Parceiro Estratégico e de Desenvolvimento Web.</h3>
+              <h3 className="text-2xl font-semibold mb-4">Seu Desenvolvedor Web e <br /> Parceiro Estratégico.</h3>
               <p className="text-gray-600 mb-6">
                 {/* Ex-profissional de vendas que encontrou na tecnologia como<strong> multiplicar resultados</strong> na venda on-line. Com +5 anos de experiência combino<strong> visão estratégica de negócio </strong>e <strong> habilidades técnicas</strong> para criar e otimizar plataformas de e-commerce, focando sempre na <strong>performance </strong>e na <strong>experiência do cliente</strong>.
                 <br /> */}
-                Com uma abordagem única que une <strong >expertise técnica em Desenvolvimento Frontend</strong> e uma <strong >visão estratégica aprofundada de e-commerce</strong>, eu construo e otimizo soluções digitais que funcionam, impactam e <strong >geram resultados exponenciais</strong>. Minha experiência de +5 anos me permite ir além, desde otimizações de performance a integração complexas, meu objetivo é claro: levo a sua operação online ao <strong >próximo nível de lucratividade e eficiência</strong>.
+                Com uma abordagem única que une <strong >expertise técnica em Desenvolvimento Frontend</strong> e uma <strong >visão estratégica aprofundada em e-commerce</strong>, construo e otimizo soluções digitais que funcionam, impactam e <strong >geram resultados exponenciais</strong>. Com experiência comprovada de +5 anos me permite ir além, desde otimizações de performance a integração complexas para o seu negócio, meu objetivo é claro: levo a sua operação online ao <strong >próximo nível de lucratividade e eficiência</strong>.
                 <Link
                   href="/especialista"
                   className="mt-4 inline-flex items-center gap-1 text-blue-600 hover:underline"
                 >
-                  Descubra minha expertise em e-commerce →
+                  Descubra minhas expertises em e-commerce →
                 </Link>
               </p>
               <div className="space-y-2">
@@ -164,7 +169,7 @@ export default function Home() {
             >
               <h4 className="font-bold mb-4">Principais Habilidades</h4>
               <div className="flex flex-wrap gap-3">
-                {['React', 'NextJs', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'Tailwind', 'BootStrap', 'Prisma', 'SQL', 'Git', 'Redux', 'API', 'SEO', 'CRO', 'ERP', 'VTEX', 'TRAY', 'Kommo', 'RD Station', 'Email Marketing', 'Google ADS', 'Meta ADS', 'Tag Manager', 'Analytics', 'BI', 'Figma', 'IA', 'VSCode', 'Trello', 'Notion', 'n8n'].map((skill) => (
+                {['React', 'NextJs', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'Tailwind', 'BootStrap', 'Prisma', 'SQL', 'Git', 'Redux', 'API', 'SEO', 'CRO', 'ERP', 'VTEX', 'TRAY', 'Kommo', 'RD Station', 'Email Marketing', 'Google ADS', 'Meta ADS', 'Tag Manager', 'Analytics', 'BI', 'Figma', 'IA', 'VSCode', 'Trello', 'Notion', 'n8n', 'Mercado Livre', 'Amazon', 'Shoppe'].map((skill) => (
                   <span
                     key={skill}
                     className="bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm hover:bg-green-200 hover:text-green-800 transition duration-300 cursor-pointer"

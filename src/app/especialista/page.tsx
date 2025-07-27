@@ -1,7 +1,8 @@
 // app/especialista-ecommerce/page.tsx
+import ProfessionalValidation from '@/components/ProfissionalValidation';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { FiCheckCircle, FiBarChart2, FiCodesandbox, FiCpu, FiSmartphone, FiActivity, FiHeadphones } from 'react-icons/fi';
+import { FiBarChart2, FiCodesandbox, FiCpu, FiSmartphone, FiActivity, FiHeadphones } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Jonathan Costa | Especialista VTEX & Tray | Integrações de Sistemas',
@@ -75,8 +76,12 @@ export default function SpecialistPage() {
 
       </section>
 
-      {/* Seção Experiência com Dados */}
-      <section className="bg-white py-16 px-4">
+      <section>
+        <ProfessionalValidation />
+      </section>
+
+      {/* Seção Experiência com Dados-resultados entregues */}
+      {/* <section className="bg-white py-16 px-4">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">
             <span className="border-b-4 border-blue-600 pb-2">Resultados Entregues</span>
@@ -151,7 +156,7 @@ export default function SpecialistPage() {
             </ul>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Final */}
       <section className="bg-gray-100 py-20 px-4">
