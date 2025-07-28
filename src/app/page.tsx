@@ -10,6 +10,7 @@ import Image from "next/image";
 import ExperienceTimeline from "@/components/ExperienceTimeLine";
 import ContactForm from "@/components/ContactForm";
 import Link from "next/link";
+import TechRecommendations from "@/components/TechRecomendation";
 
 export default function Home() {
   return (
@@ -183,9 +184,17 @@ export default function Home() {
         </div>
       </section>
 
+      {/* sessão de Recomendações Técnicas */}
+      <section >
+        <div >
+
+          <TechRecommendations />
+        </div>
+      </section>
+
       {/* sessão de Experiência */}
 
-      <section id="experience" className="py-20 px-4 bg-gray-50">
+      <section id="experience" className="py-20 px-4 bg-gray-100">
         <div className="container mx-auto">
           <motion.h2
             initial={{ opacity: 0, y: 30 }}
@@ -209,6 +218,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+
 
       {/* sessão de Contato */}
 

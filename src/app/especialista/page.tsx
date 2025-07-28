@@ -19,7 +19,7 @@ export default function SpecialistPage() {
             Transformo <span className="text-yellow-300">e-commerces</span> em máquinas de vendas
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-            Especialista em <strong>VTEX & Tray</strong> | Arquitetura de <strong>integrações</strong> (ERP, Logística, CRM, Marketing, ADS, Marketplaces, Analytics/BI, ) | <strong>+R$500k</strong> em faturamento gerado.
+            Especialista em <strong>VTEX & Tray</strong> | Arquitetura de <strong>integrações</strong> (ERP, Logística, CRM, Marketing, ADS, Marketplaces, Analytics, Business Inteligence) | <strong>+R$500k</strong> em faturamento gerado.
           </p>
           <p className="text-sm max-w-5xl mx-auto mt-8 text-white/60">
             Com uma abordagem única que une <strong >expertise técnica em Desenvolvimento Frontend</strong> e uma <strong >visão estratégica aprofundada de e-commerce</strong>, construo e otimizo soluções digitais que funcionam e <strong >geram resultados exponenciais</strong>. Desde otimizações de performance a integrações complexas, meu objetivo é claro: <strong >levo sua operação online para o próximo nível de lucratividade e eficiência</strong>.
@@ -38,32 +38,32 @@ export default function SpecialistPage() {
             {
               icon: <FiBarChart2 size={32} className="text-blue-600" />,
               title: "Plataformas Desorganizadas",
-              text: "Migro e estruturo lojas VTEX/Tray com arquitetura escalável, catálogo otimizado e checkout high-conversion."
+              text: "Migro e estruturo lojas on-line com arquitetura escalável, catálogo otimizado e checkout high-conversion."
             },
             {
               icon: <FiCodesandbox size={32} className="text-blue-600" />,
               title: "Sistemas Desconectados",
-              text: "Integro ERPs (Winthor, Totvs), CRMs (RD Station), ferramentas de marketing para operações automáticas e processos internos."
+              text: "Integro ERPs (Winthor-Totvs), CRMs, ferramentas de marketing para operações automáticas e processos internos."
             },
             {
               icon: <FiCpu size={32} className="text-blue-600" />,
               title: "Baixa Performance",
-              text: "Implemento SEO técnico, análise de dados e CRO para aumentar tráfego e conversão em +300%."
+              text: "Implemento SEO técnico, análise de dados e CRO, criação de Hot SItes para aumentar tráfego e conversão."
             },
             {
               icon: <FiSmartphone size={32} className="text-blue-600" />,
               title: "UX/UI Mobile Defasada",
-              text: "Otimizo o design e a performance de e-commerces para mobile, garantindo navegação fluida e elevadas taxas de conversão em todos os dispositivos.."
+              text: "Otimizo o design e a performance de e-commerces para mobile, garantindo navegação fluida e elevadas taxas de conversão em todos os dispositivos."
             },
             {
               icon: <FiHeadphones size={32} className="text-blue-600" />,
               title: "Pós-Venda Ineficiente",
-              text: "Automatizo fluxos de comunicação e suporte pós-compra, escalando a satisfação do cliente através da integração com CRMs e plataformas de atendimento"
+              text: "Automatizo fluxos de comunicação e suporte pós-compra, escalando a satisfação do cliente através da integração com CRMs e plataformas de atendimento."
             },
             {
               icon: <FiActivity size={32} className="text-blue-600" />,
               title: "Picos de Venda (Sazonalidades)",
-              text: "Estruturo plataformas e integrações para suportar grandes volumes de tráfego e pedidos, assegurando estabilidade e alta performance em datas sazonais."
+              text: "Estruturo plataformas e integrações para suportar grandes volumes de tráfego e pedidos, assegurando estabilidade e alta performance."
             },
           ].map((item, i) => (
             <div key={i} className="bg-white p-8 rounded-xl shadow-md border border-gray-200 hover:shadow-lg transition-transform transform hover:scale-105 hover:bg-blue-50">
