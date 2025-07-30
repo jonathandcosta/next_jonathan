@@ -1,5 +1,5 @@
 // app/especialista-ecommerce/page.tsx
-import ProfessionalValidation from '@/components/ProfissionalValidation';
+import { ResultsShowcase } from '@/components/ResultsShowcase';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { FiBarChart2, FiCodesandbox, FiCpu, FiSmartphone, FiActivity, FiHeadphones } from 'react-icons/fi';
@@ -77,7 +77,7 @@ export default function SpecialistPage() {
       </section>
 
       <section>
-        <ProfessionalValidation />
+        <ResultsShowcase />
       </section>
 
       {/* Seção Experiência com Dados-resultados entregues */}
