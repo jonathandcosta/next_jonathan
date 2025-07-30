@@ -10,7 +10,7 @@ export const ResultsShowcase = () => {
       id: 1,
       logo: "/logos/brazz-logo.png",
       title: "Brazz Brazz Papelaria",
-      period: "2024-2025",
+      period: "2025-2024",
       role: "Analista de E-commerce",
       metrics: [
         { icon: <FaShoppingCart />, value: "+40%", label: "Conversões" },
@@ -26,7 +26,7 @@ export const ResultsShowcase = () => {
       id: 2,
       logo: "/logos/atacado-logo.png",
       title: "Atacado do Lojista",
-      period: "2023-2024",
+      period: "2024-2023",
       role: "Supervisão de E-commerce",
       metrics: [
         { icon: <FaBoxOpen />, value: "30k", label: "SKUs Organizados" },
@@ -43,7 +43,7 @@ export const ResultsShowcase = () => {
       id: 3,
       logo: "/logos/maranguape-logo.png",
       title: "Comercial Maranguape",
-      period: "2022-2023",
+      period: "2023-2022",
       role: "Desenvolvimento & Suporte",
       metrics: [
         { icon: <FaShoppingCart />, value: "+35%", label: "Recompra" },
