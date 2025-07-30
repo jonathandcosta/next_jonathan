@@ -11,6 +11,7 @@ import ExperienceTimeline from "@/components/ExperienceTimeLine";
 import ContactForm from "@/components/ContactForm";
 import Link from "next/link";
 import TechRecommendations from "@/components/TechRecomendation";
+import SocialProof from "@/components/SocialProof";
 
 export default function Home() {
   return (
@@ -101,6 +102,7 @@ export default function Home() {
         </div>
       </section>
 
+
       {/* Seção de Projetos */}
       <section id="projects" className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
@@ -114,12 +116,23 @@ export default function Home() {
           </motion.h2>
 
           <ProjectsCarousel projects={projects} />
-          <div>
-            <p className="text-center text-gray-600 mt-6">
-              Confira mais projetos no meu <Link target="_blank" href="https://react-github-pi.vercel.app/" className="text-blue-600 hover:underline">portfólio completo</Link>.
-            </p>
+
+
+          <div className="mt-12 text-center">
+            <div className="inline-flex flex-col sm:flex-row items-center gap-4 bg-blue-50 px-6 py-4 rounded-lg">
+              <p className="text-gray-700 font-medium">
+                <span className="text-blue-600">+15 projetos </span> entregues
+              </p>
+              <a
+                href="#projetos"
+                className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors text-sm font-medium"
+              >
+                <Link target="_blank" href="https://react-github-pi.vercel.app/" className="text-white hover:underline"> ver todos</Link>
+              </a>
+            </div>
           </div>
         </div>
+
       </section>
 
       {/* Sessão sobre */}
@@ -141,11 +154,11 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h3 className="text-2xl font-semibold mb-4">Seu Desenvolvedor Web e <br /> Parceiro Estratégico.</h3>
+              <h3 className="text-2xl font-semibold mb-4"> Desenvolvedor Web e <br />Analista de E-commerce.</h3>
               <p className="text-gray-600 mb-6">
                 {/* Ex-profissional de vendas que encontrou na tecnologia como<strong> multiplicar resultados</strong> na venda on-line. Com +5 anos de experiência combino<strong> visão estratégica de negócio </strong>e <strong> habilidades técnicas</strong> para criar e otimizar plataformas de e-commerce, focando sempre na <strong>performance </strong>e na <strong>experiência do cliente</strong>.
                 <br /> */}
-                Com uma abordagem única que une <strong >expertise técnica em Desenvolvimento Frontend</strong> e uma <strong >visão estratégica aprofundada em e-commerce</strong>, construo e otimizo soluções digitais que funcionam, impactam e <strong >geram resultados exponenciais</strong>. Com experiência comprovada de +5 anos me permite ir além, desde otimizações de performance a integração complexas para o seu negócio, meu objetivo é claro: levo a sua operação online ao <strong >próximo nível de lucratividade e eficiência</strong>.
+                Expertise técnica em<strong> Desenvolvimento Frontend</strong> e uma visão estratégica<strong > comprovada em e-commerce</strong>, construo e otimizo soluções digitais que funcionam, impactam e <strong >geram resultados exponenciais</strong>. Com experiência de +5 anos, otimizo a performance e soluciono integrações complexas para o seu negócio, meu objetivo é claro: Levar a sua operação online ao <strong >próximo nível de lucratividade e eficiência</strong>.
                 <Link
                   href="/especialista"
                   className="mt-4 inline-flex items-center gap-1 text-blue-600 hover:underline"
@@ -184,10 +197,16 @@ export default function Home() {
         </div>
       </section>
 
+
+      <section>
+        <div>
+          <SocialProof />
+        </div>
+      </section>
+
       {/* sessão de Recomendações Técnicas */}
       <section >
         <div >
-
           <TechRecommendations />
         </div>
       </section>
@@ -222,7 +241,6 @@ export default function Home() {
 
 
       {/* sessão de Contato */}
-
       <section id="contact" className="py-20 px-4 bg-gradient-to-br from-gray-50 to-gray-100">
         <div className="container mx-auto max-w-4xl">
           <motion.div
@@ -332,7 +350,6 @@ export default function Home() {
 
 
       {/* footer */}
-
       <footer className="bg-gray-900 text-gray-300 py-12">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
