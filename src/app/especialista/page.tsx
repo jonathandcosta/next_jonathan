@@ -21,8 +21,8 @@ export default function SpecialistPage() {
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
             Especialista em <strong>VTEX & Tray</strong> | Arquitetura de <strong>integrações</strong> (ERP, Logística, CRM, Marketing, ADS, Marketplaces, Analytics, Business Inteligence) | <strong>+R$500k</strong> em faturamento gerado.
           </p>
-          <p className="text-sm max-w-5xl mx-auto mt-8 text-white/60">
-            Com uma abordagem única que une <strong >expertise técnica em Desenvolvimento Frontend</strong> e uma <strong >visão estratégica aprofundada de e-commerce</strong>, construo e otimizo soluções digitais que funcionam e <strong >geram resultados exponenciais</strong>. Desde otimizações de performance a integrações complexas, meu objetivo é claro: <strong >levo sua operação online para o próximo nível de lucratividade e eficiência</strong>.
+          <p className="text-sm max-w-5xl mx-auto mt-8 text-white/7s0">
+            Como <strong>analista de e-commerce</strong>, domino a arquitetura de integrações que transformam operações complexas em sistemas fluídos: Enxergo o e-commerce como um organismo vivo - cada <strong>linha de código</strong>, cada <strong>integração</strong> e cada<strong> relatório</strong> deve servir a um objetivo: <strong>aumentar seu faturamento</strong>.
           </p>
         </div>
       </section>
