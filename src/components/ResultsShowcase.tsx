@@ -8,22 +8,39 @@ export const ResultsShowcase = () => {
   const cases = [
     {
       id: 1,
+      logo: "/logos/sg-logo.png",
+      title: "Super Giro",
+      period: "2025",
+      role: "Analista de E-commerce",
+      metrics: [
+        { icon: <FaShoppingCart />, value: "+40%", label: "Conversões" },
+        { icon: <FaChartLine />, value: "80%", label: "Agilidade" }
+      ],
+      quote: "Saímos de uma operação completamente manual para uma operação automatizada, melhoramos as conversões e ganhamos agilidade em toda da nossa operação desde o pedido até a entrega.",
+      author: "Gil, CEO",
+      avatar: "/images/gil.png",
+      featured: false,
+      tags: ["Mercado Livre", "Amazon", "Shopee", "EcoCentauro", "Bling", "Trello", "Google Sheet", "Integrações"]
+    },
+    {
+      id: 2,
       logo: "/logos/brazz-logo.png",
       title: "Brazz Brazz Papelaria",
       period: "2025-2024",
       role: "Analista de E-commerce",
       metrics: [
-        { icon: <FaShoppingCart />, value: "+40%", label: "Conversões" },
+        { icon: <FaShoppingCart />, value: "+30%", label: "Conversões" },
         { icon: <FaChartLine />, value: "-25%", label: "CAC" }
       ],
       quote: "Melhoramos o SEO do nosso site obtendo redução de 25% no CAC e passamos a atender o território nacional",
       author: "Misael Muniz, Diretor Logístico",
       avatar: "/images/misael.png",
-      tags: ["Tray", "Google Analytics", "SEO"]
+      featured: false,
+      tags: ["Tray", "Google Analytics", "SEO", "Winthor", "Google ADS", "Google Shopping", "BI", "Mercado Livre", "Zeeps", "Trello"]
 
     },
     {
-      id: 2,
+      id: 3,
       logo: "/logos/atacado-logo.png",
       title: "Atacado do Lojista",
       period: "2024-2023",
@@ -36,11 +53,10 @@ export const ResultsShowcase = () => {
       author: "Marcos Eli, CEO",
       avatar: "/images/marcos.png",
       featured: true,
-      tags: ["VTEX IO", "Google ADS", "Marketplace", "BI"]
-
+      tags: ["VTEX IO", "Analytics", "Winthor", "Google ADS", "Google Shopping", "Marketplace", "BI", "RD Station", "Kommo", "Trello"]
     },
     {
-      id: 3,
+      id: 4,
       logo: "/logos/maranguape-logo.png",
       title: "Comercial Maranguape",
       period: "2023-2022",
@@ -53,7 +69,7 @@ export const ResultsShowcase = () => {
       author: "Wellington Martins, Gerente de E-commerce",
       avatar: "/images/wellington.png",
       featured: true,
-      tags: ["VTEX", "Payments", "Winthor"]
+      tags: ["VTEX", "Payments", "Winthor", "Google ADS", "Google Shopping", "BI", "SmartHint", "Trello"]
     }
   ];
 
