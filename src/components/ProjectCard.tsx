@@ -45,7 +45,7 @@ export default function ProjectCard({
         }
           shadow-md
           `}>
-        {type === 'profissional' ? 'PRO' : 'ACADÊMICO'}
+        {type === 'freelancer' ? 'Freelancer' : type === 'profissional' ? 'Profissional' : 'Acadêmico'}
       </span>
 
       <div className="h-48 relative overflow-hidden">

@@ -10,6 +10,16 @@ interface Project {
 
 export const projects: Project[] = [
   {
+    title: 'Marktplaces - Super Giro',
+    type: 'freelancer',
+    description:
+      'Desenvolvi a gestão dos marketplaces integrando ao ERP Bling e estruturando com automações a gestão de pedidos, estoque e logística. As implementações aumentou as conversões em 40% e trouxe agilidade operacional em 80%.',
+    tags: ['Amazon', 'Shopee', 'Mercado Livre', 'Bling'],
+    image: '/projetos/sg.jpeg',
+    githubLink: '#',
+    deployLink: 'https://www.mercadolivre.com.br/pagina/supergiro_',
+  },
+  {
     title: 'Ecommerce - BrazzBrazz',
     type: 'profissional',
     description:
